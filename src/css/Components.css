@@ -1,0 +1,33 @@
+
+
+.mainHeading{
+    font-size: 100px;
+    background: linear-gradient(to right, #3EEB48, blue, purple, pink);
+    background-clip: text;
+    color: transparent;
+  }
+.secondHeading{
+    width: 900px;
+    line-height: 40px;
+    font-weight: 200;
+}
+
+
+
+@media (max-width: 1231px) {
+  .mainContainer {
+    padding: 20px; 
+  }
+  .mainHeading {
+    font-size: 60px;
+  }
+  .secondHeading {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+
+ 
+  
